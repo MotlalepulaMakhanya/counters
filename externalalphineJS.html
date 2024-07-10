@@ -41,10 +41,11 @@
 </head>
 
 <body>
+    <h1>Counters with External AlphineJS</h1>
     <div x-data="counter">
         <div><span x-text="count"></span></div>
-        <button @click="decrement">-</button>
-        <button @click="increment">+</button>
+        <button @click="decrement">Decrement</button>
+        <button @click="increment">Increment</button>
         <div class="reset"><button @click="reset">Reset</button></div>
     </div>
     <style>
